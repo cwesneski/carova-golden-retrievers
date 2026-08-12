@@ -1,0 +1,308 @@
+/*
+Theme Name: WordPress Basic
+Theme URI: http://mauricedesign.com
+Description: 
+Version: 1.0
+Author: Dale Maurice
+Author URI: http://www.mauricedesign.com
+Tags: 
+*/
+
+/* -------------------------------------------------------------------------------------*/
+/* site specific css */
+/* -------------------------------------------------------------------------------------*/
+
+body {
+	background: #2d2437 url('images/goldenback2.jpg') no-repeat top center;
+	padding:0;
+	margin:0;
+	-webkit-font-smoothing:	antialiased;
+}
+
+h1 {
+	padding: 20px 0px 10px 0px;
+	color: #3a0e67;
+	font-size: 17px;
+	font-weight: bold;
+}
+h2 {
+	color: #3a0e67;
+}
+h3 {
+	color: #3a0e67;
+}
+strong {
+	font-weight: bold;
+	color: #3a0e67;
+}
+
+p {
+}
+
+a, a:visited {
+	color: #996633;
+}
+a:hover {
+}
+
+em {
+	font-style: italic;
+}
+
+table {
+	font-family: "freight-sans-pro",sans-serif;
+}
+td {
+	padding: 2px 4px 2px 4px;
+	vertical-align: top !important;
+}
+
+.nobr { white-space: nowrap; }
+
+#wrapper {
+	margin: 0 auto;
+	width: 1000px;
+	background: #ffffff;
+	font-family: "freight-sans-pro",sans-serif;
+}
+
+#external {
+	width: 940px;
+	text-align: center;
+	background: none;
+	padding: 0;
+	margin: 0;
+	margin: auto;
+}
+#external a, #external a:visited {
+	color: #c0c0c0;
+	font-size: 11px;
+	line-height: 24px;
+}
+
+#header {
+	margin: 0 auto;
+	width: 1000px;
+	height: 230px;
+	background: transparent;
+	position: relative;
+}
+	#contact-no {
+		position: absolute;
+		top: 64px;
+		right: 60px;
+		font-family: "freight-sans-pro",sans-serif;
+		font-style: normal;
+		font-size: 20px;
+		color: #FFFFFF;
+	}
+
+#slideshow {
+	width: 1000px;
+	height: 296px;
+	padding-bottom: 3px; 
+	border-bottom: 1px solid #b0b0b0;
+}
+
+#content, .entry {
+	width: 920px;
+	padding: 20px 40px 0px 40px;
+	line-height: 20px;
+	color: #393838;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 1000px;
+	height: 162px;
+	background: #ffffff url('images/base.jpg') no-repeat bottom center;
+	line-height: 162px;
+	color: #3a0e67;
+	text-align: center;
+}
+
+.spacer {
+	clear: both;
+	width: 1000px;
+}
+
+.menu-main-menu-container {
+	margin-top: 16px;
+}
+
+.menu {
+	position: relative;
+	height: 50px;
+	width: 1000px;
+}
+	.menu ul {
+		float: left;
+		padding-top: 24px;
+		padding-left: 40px;
+	}
+	.menu li {
+		float: left;
+		margin: 0 12px;
+		list-style: none;
+		font-family: "freight-sans-pro",sans-serif;
+		font-style: normal;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+	.menu li a
+	{
+		text-decoration: none;
+		text-align: center;
+		color: #FFFFFF;
+		margin: 0px;
+		padding: 0px;
+		float: none;
+		font-style: normal;
+	
+	}
+	.menu li a:hover
+	{
+		text-decoration: underline;
+	}
+	.menu .active {
+		color: #fbcb05;
+	}
+
+.italic {
+	font-style: italic;
+}
+.float-left {
+	float:left;
+}
+.pad-me {
+	padding: 4px;
+}
+.border-me {
+	border: 1px solid #c0c0c0;
+}
+
+			
+/* -------------------------------------------------------------------------------------*/
+/* end of site specific */
+/* -------------------------------------------------------------------------------------*/
+
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	}
+
+img.alignright {
+	text-align: center;
+	}
+
+img.alignleft {
+	display: inline;
+	}
+	
+.alignright {
+	float: right;
+	margin-right: 40px;
+	margin-left: 10px;
+	}
+
+.alignleft {
+	float: left;
+	margin-left: 40px;
+	margin-right: 10px;
+	}
+/* End Images */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	padding: 15px 30px 0 10px;
+	margin: 0px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+/* End Various Tags & Classes*/
+
+.post p {
+	padding: 8px 0px 8px 0px;
+}
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 4px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+	
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.wp-caption img {
+	margin: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 12px;
+	line-height: 17px;
+	padding: 3px;
+	margin: 0;
+	text-align: center;
+}
+/* End captions */
+
+ul {
+	padding-left: 40px;
+	list-style-type: disc;
+	list-style-position:inside;
+}
+
+/* Match original archived header */
+#header {
+    background: transparent !important;
+}
+
+/* Match archived Carova background alignment */
+body {
+    background-position: center -60px !important;
+}
